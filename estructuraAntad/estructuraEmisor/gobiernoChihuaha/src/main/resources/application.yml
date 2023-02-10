@@ -1,0 +1,17 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+server:
+  port: 8085
+spring:
+  application:
+    name: gobierno-chihuahua
+  datasource:
+    driver-class-name: com.ibm.db2.jcc.DB2Driver
+    password: passw0rd
+    url: jdbc:db2://10.27.22.208:50000/od_bcpl
+    username: db2inst1
+  jackson:
+    locale: es_MX
+    time-zone: America/Mexico_City
