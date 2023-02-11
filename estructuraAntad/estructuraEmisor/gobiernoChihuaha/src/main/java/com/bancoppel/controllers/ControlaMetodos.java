@@ -7,14 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/controlador")
-@CrossOrigin(origins= {"http://localhost:8085"})
+@CrossOrigin(origins= {"http://localhost:8081"})
 public class ControlaMetodos {
 
-	
-	
 	@GetMapping("/prueba")
 	public String metodoPrueba() {
 		return "pruebisimaaaaaa";
-	}
-	
+	}	
 }
