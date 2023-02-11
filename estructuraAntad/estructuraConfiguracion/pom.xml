@@ -15,5 +15,6 @@
   
   <modules>
   	<module>eurekaServer</module>
+  	<module>gateway</module>
   </modules>
 </project>
