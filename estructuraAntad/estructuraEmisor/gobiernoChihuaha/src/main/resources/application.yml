@@ -15,3 +15,12 @@ spring:
   jackson:
     locale: es_MX
     time-zone: America/Mexico_City
+    #habilitar documentacion swagger
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui/index.html  
+    #  packagesToScan: com.bancoppel.billing.entities, com.bancoppel.billing.controller
+    #  pathsToMatch: /v1, /billing/**  

@@ -10,6 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.validation.constraints.NotEmpty;
 
 @Entity
 @Table(name="CRUD")
@@ -17,9 +18,11 @@ public class Crud implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 	
+	
 	@Id
 	private Long id;
 	
+	@NotEmpty(message = "no puede ir vacio")
 	@Column(name="NOMBRE")
 	private String nombre;
 	
