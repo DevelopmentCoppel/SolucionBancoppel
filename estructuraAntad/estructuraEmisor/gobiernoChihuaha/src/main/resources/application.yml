@@ -24,3 +24,17 @@ springdoc:
     path: /swagger-ui/index.html  
     #  packagesToScan: com.bancoppel.billing.entities, com.bancoppel.billing.controller
     #  pathsToMatch: /v1, /billing/**  
+
+#Forma 1 de importar mas de un archivo en una linea
+#spring:
+#  config:
+#      import:file:C:/CplaSu/config/eureka.properties, file:C:/CplaSu/config/server.properties, file:C:/CplaSu/config/swagger.properties, file:C:/CplaSu/config/database.properties
+
+#Forma 2 de importar mas de un archivo en lista
+#spring:
+#  config:
+#      import: 
+#        - file:C:/CplaSu/config/eureka.properties 
+#        - file:C:/CplaSu/config/server.properties 
+#        - file:C:/CplaSu/config/swagger.properties
+#        - file:C:/CplaSu/config/database.properties
