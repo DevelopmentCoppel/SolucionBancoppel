@@ -36,5 +36,5 @@ springdoc:
 #      import: 
 #        - file:C:/CplaSu/config/eureka.properties 
 #        - file:C:/CplaSu/config/server.properties 
-#        - file:C:/CplaSu/config/swagger.properties
+#        - file:C:/CplaSu/config/swagger.properties 
 #        - file:C:/CplaSu/config/database.properties
